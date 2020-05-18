@@ -1,0 +1,21 @@
+.layui-layout-admin .layui-logo {
+    color: white;
+}
+
+.layui-body {
+    top: 60px;
+    left: 0;
+}
+
+.footerDiv {
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-size: 1vw;
+}
+
+.footerDiv a {
+    color: white;
+    text-decoration: underline;
+    font-size: 1vw;
+}
