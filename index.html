@@ -13,6 +13,30 @@
         .layui-bg-common {
             background-color: #2280ff!important;
         }
+        
+        .layui-nav .layui-this:after {
+            background-color: white;
+            border-radius: 5px;
+        }
+        
+        @media only screen and (min-width: 1029px) {
+            .pcBgimg {
+                height: calc(100vh - 60px);
+            }
+        }
+        
+        .bottomSpan span,
+        .bottomSpan a {
+            margin-right: 1rem;
+        }
+        
+        .bottomSpan a {
+            display: inline-block;
+            text-decoration: underline;
+            height: 20px;
+            line-height: 20px;
+            color: white;
+        }
     </style>
 </head>
 
@@ -35,25 +59,23 @@
 
     <div class="layui-body">
         <div style="position: absolute;">
-            <img src="img/index.png" style="width:100%;" />
-            <span class="footerDiv" style="bottom: 13vw;">客服电话:+86 16601391507</span>
-            <span class="footerDiv" style="bottom: 10.5vw;">联系方式:admin@kksnail.com</span>
-            <div class="footerDiv" style="bottom: 8.5vw;">
-                <a href="http://beian.miit.gov.cn" target="_blank">沪ICP备19007762号-1</a>
-                <span> </span>
-                <!-- <a href="https://www.kksnail.com/app/h5/article_show?id=7" target="_blank">巧智助教服务协议</a> -->
+            <img src="img/indexbg.png" class="pcBgimg" style="width:100%;" />
+            <img src="img/index-left.png" style="position: absolute;align-items: center;top:15%;left:5%;width:25%;" />
+            <img src="img/index-right.png" style="position: absolute;right:5%;top:10%;width:30%" />
+            <div style="position:absolute;bottom:5px;display: flex;color: white;font-size:0.7rem;width: 100%;">
+                <div class="bottomSpan" style="margin: auto;">
+                    <span>客服电话:+86 16601391507</span>
+                    <span>联系方式:admin@kksnail.com</span>
+                    <a target="_blank" href="http://beian.miit.gov.cn">沪ICP备19007762号-1</a>
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202012370"><img src="img/gongan.png" style="float:left;" /> 沪公网安备 31011202012370号
+                    </a>
+                    <span>上海桥智教育软件科技有限公司-巧智助教</span>
+                </div>
             </div>
-            <div class="footerDiv" style="bottom: 6vw;">
-                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202012370" style="display:inline-block;text-decoration:underline;height:20px;line-height:20px;color:white;"><img src="img/gongan.png" style="float:left;" /> 沪公网安备 31011202012370号
-                </a>
-            </div>
-            <span class="footerDiv" style="bottom: 3.5vw;">上海桥智教育软件科技有限公司-巧智助教</span>
         </div>
     </div>
 
     <script src="layui/layui.js" charset="utf-8"></script>
-    <script>
-    </script>
 
 </body>
 
