@@ -21,7 +21,10 @@
         
         @media only screen and (min-width: 1029px) {
             .pcBgimg {
+                height: 98%;
                 height: calc(100vh - 60px);
+                height: -webkit-calc(100vh - 60px);
+                height: -moz-calc(100vh - 60px);
             }
         }
         
@@ -58,7 +61,7 @@
     </div>
 
     <div class="layui-body">
-        <div style="position: absolute;">
+        <div style="position: relative;">
             <img src="img/indexbg.png" class="pcBgimg" style="width:100%;" />
             <img src="img/index-left.png" style="position: absolute;align-items: center;top:15%;left:5%;width:25%;" />
             <img src="img/index-right.png" style="position: absolute;right:5%;top:10%;width:30%" />
