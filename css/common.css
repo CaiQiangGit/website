@@ -11,11 +11,15 @@
     position: absolute;
     left: 10%;
     color: white;
-    font-size: 1vw;
+    font-size: 0.7rem;
+}
+
+.footerDiv span {
+    font-size: 0.7rem;
 }
 
 .footerDiv a {
     color: white;
     text-decoration: underline;
-    font-size: 1vw;
+    font-size: 0.7rem;
 }
